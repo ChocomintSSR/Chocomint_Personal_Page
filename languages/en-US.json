@@ -1,0 +1,33 @@
+{
+	"TITLE":"CHOCOMINT",
+	"SUBTITLE":"10 grade student, who engage in making C++ headers",
+
+	"AboutMeTitle":"About Me",
+	"AboutMeContent":"I'm now studying in TNFSH. I like to write code and research Math and Physics<br>I have learned C++ since I was in grade 7.<br>And now I'm coding some useful headers.(or call \"wheels\")<br>Recently, I'm leaning how to develope website and applications.",
+	"MyHeaders":"My Headers",
+	
+	"BigNumber":"BigNumber.h",
+	"Graph":"Graph.h",
+	"Matrix":"Matrix.h",
+	"formula":"formula.h",
+	"stringEX":"stringEX.h",
+	
+	"BigNumberContent":"More long than long long!",
+	"GraphContent":"All Graph algorithms are in here!",
+	"MatrixContent":"You can announce variables with any type and operate them!",
+	"formulaContent":"It support differentiate and integral you own function!",
+	"stringEXContent":"There are some useful function in the header base on std!",
+
+	"MyProject":"Project",
+	"Trigonometric":"Fight Trigonometric!",
+	"TriContent":"Help you be familiar with trigonometric more fast!",
+
+	"ClassTitle":"Class & Note Resources",
+	"OperatorOverloading":"[Class] Operator Overloading",
+	"Geometry":"[Note] Geometry",
+	"ConicSection":"[Note] Conic Section",
+	"VectorField":"[Note] Calculus of Vector Field",
+	"LaplaceTransformation":"[Note] Laplace Transformation",
+	"Variation":"[Note] Variation of Calculus"
+
+}

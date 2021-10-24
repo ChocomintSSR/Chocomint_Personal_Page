@@ -1,0 +1,33 @@
+{
+	"TITLE":"薄荷巧克力 CHOCOMINT",
+	"SUBTITLE":"高一生，正在C++中從事標頭檔製作。",
+
+	"AboutMeTitle":"關於我",
+	"AboutMeContent":"目前就讀南一中，喜歡寫程式、研究數學及物理<br>我從國一開始學習C++，現在主要是寫擴充標頭檔<br>目前正在學習開發網頁以及軟體",
+	"MyHeaders":"我的標頭檔",
+	
+	"BigNumber":"BigNumber.h - 大數運算",
+	"Graph":"Graph.h - 圖形結構",
+	"Matrix":"Matrix.h - 矩陣計算機",
+	"formula":"formula.h - 函數代值",
+	"stringEX":"stringEX.h - 字串擴充",
+	
+	"BigNumberContent":"比一般long long還更長的數字！",
+	"GraphContent":"各種圖形結構的演算法！",
+	"MatrixContent":"支援以不同型態的元素宣告矩陣，能夠完成矩陣的運算",
+	"formulaContent":"可以對自訂函數做微分、積分的代值運算",
+	"stringEXContent":"對std中原有的字串做擴充，加入了一些好用的功能",
+
+	"MyProject":"我的專案",
+	"Trigonometric":"決戰三角",
+	"TriContent":"幫助你更快熟悉三角函數的定義！",
+
+	"ClassTitle":"課程、筆記資源",
+	"OperatorOverloading":"【課程】 運算子多載",
+	"Geometry":"【筆記】 幾何",
+	"ConicSection":"【筆記】 圓錐曲線",
+	"VectorField":"【筆記】 向量場的積分",
+	"LaplaceTransformation":"【筆記】 拉普拉斯轉換",
+	"Variation":"【筆記】 變分法"
+
+}
