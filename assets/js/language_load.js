@@ -10,7 +10,6 @@ var load_language = function()
 		if(current_supports_language.includes(navigator.language))
 			lang = navigator.language
 		
-		console.log("https://raw.githubusercontent.com/ChocomintSSR/Chocomint_Personal_Page/main/languages/"+lang+".json");
 		req.open("GET","https://raw.githubusercontent.com/ChocomintSSR/Chocomint_Personal_Page/main/languages/"+lang+".json")
 		
 		var onReady = function(response)
