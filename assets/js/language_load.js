@@ -10,7 +10,7 @@ var load_language = function()
 		if(current_supports_language.includes(navigator.language))
 			lang = navigator.language
 		
-		req.open("GET","https://chocomint-page.yuhengsu0405.repl.co/languages/"+lang+".json")
+		req.open("GET","/../languages/"+lang+".json")
 		
 		var onReady = function(response)
 		{

@@ -11,12 +11,12 @@
 	"Matrix":"Matrix.h - 矩陣計算機",
 	"formula":"formula.h - 函數代值",
 	"stringEX":"stringEX.h - 字串擴充",
-	
+
 	"BigNumberContent":"比一般long long還更長的數字！",
 	"GraphContent":"各種圖形結構的演算法！",
-	"MatrixContent":"支援以不同型態的元素宣告矩陣，能夠完成矩陣的運算",
-	"formulaContent":"可以對自訂函數做微分、積分的代值運算",
-	"stringEXContent":"對std中原有的字串做擴充，加入了一些好用的功能",
+	"MatrixContent":"支援以不同型態的元素宣告矩陣，能夠完成矩陣的運算！",
+	"formulaContent":"可以對自訂函數做微分、積分的代值運算！",
+	"stringEXContent":"對std中原有的字串做擴充，加入了一些好用的功能！",
 
 	"MyProject":"我的專案",
 	"Trigonometric":"決戰三角",
@@ -28,6 +28,8 @@
 	"ConicSection":"【筆記】 圓錐曲線",
 	"VectorField":"【筆記】 向量場的積分",
 	"LaplaceTransformation":"【筆記】 拉普拉斯轉換",
-	"Variation":"【筆記】 變分法"
+	"Variation":"【筆記】 變分法",
 
+
+	"HeaderDownloader-Content":"你可以在這裡下載到這裡所有的標頭檔！<br>這個應用程式會根據上傳的檔案隨時更新，所以除了跟新版本之外你不需要再次下載！<br><br>特別感謝：<br>技術支援 By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>"
 }

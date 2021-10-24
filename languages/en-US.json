@@ -28,6 +28,8 @@
 	"ConicSection":"[Note] Conic Section",
 	"VectorField":"[Note] Calculus of Vector Field",
 	"LaplaceTransformation":"[Note] Laplace Transformation",
-	"Variation":"[Note] Variation of Calculus"
+	"Variation":"[Note] Variation of Calculus",
 
+	
+	"HeaderDownloader-Content":"You can download all the headers in this application!<br>This application will update automatically when some headers are uploaded on the github. Therefore, you don't have to download again except for the new release. <br><br>Special Thank:<br>Tech Support By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>"
 }
