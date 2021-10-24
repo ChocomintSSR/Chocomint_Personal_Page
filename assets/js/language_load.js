@@ -21,6 +21,7 @@ var load_language = function()
 				if (document.getElementById(language_key[i]))
 				{
 					document.getElementById(language_key[i]).innerHTML = language[language_key[i]]
+					console.log(language[language_key[i]])
 				}
 			}
 		}
