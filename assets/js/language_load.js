@@ -41,8 +41,3 @@ var load_language = function()
 	}
 	loop_until_success()
 }
-
-function redirect()
-{
-	window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-}
