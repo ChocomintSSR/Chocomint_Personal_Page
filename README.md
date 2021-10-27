@@ -4,4 +4,4 @@ Design: [HTML5 UP](https://html5up.net/)
 
 Tech Support: [Coding Bear](https://codingbear.cf/)
 
-![](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+![](https://github.com/ChocomintSSR/Chocomint_Personal_Page/blob/main/images/CC-BY-SA(02500088).png?raw=true)
