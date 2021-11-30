@@ -6,456 +6,456 @@
 -->
 <html>
 
-  <head>
-    <!-- <link rel="icon" href="images/h.ico" type="image/x-icon" /> -->
-    <title>My C++ Headers</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript>
-      <link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="stylesheet" href="assets/css/code.css">
-  </head>
+	<head>
+		<!-- <link rel="icon" href="images/h.ico" type="image/x-icon" /> -->
+		<title>My C++ Headers</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/code.css">
+	</head>
 
-  <body class="is-preload" onload="load_language()">
+	<body class="is-preload" onload="load_language()">
 
-    <!-- Page Wrapper -->
-    <div id="page-wrapper">
+		<!-- Page Wrapper -->
+		<div id="page-wrapper">
 
-      <!-- Header -->
-      <header id="header">
-        <h1><a href="index.html">Chocomint's Personal Page</a></h1>
-        <nav>
-          <a href="#menu">Menu</a>
-        </nav>
-      </header>
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html">Chocomint's Personal Page</a></h1>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
 
-      <!-- Menu -->
-      <nav id="menu">
-        <div class="inner">
-          <h2>Menu</h2>
-          <ul class="links">
-            <li><a href="index.html" id="menu-HOME">Menu index</a></li>
-            <li><a href="header.html" id="menu-Header">Menu index</a></li>
-            <li><a href="notes.html" id="menu-Note">Menu index</a></li>
-            <li><a href="#" id="menu-Project">Menu index</a></li>
-          </ul>
-          <a href="#" class="close">Close</a>
-        </div>
-      </nav>
+			<!-- Menu -->
+			<nav id="menu">
+				<div class="inner">
+					<h2>Menu</h2>
+					<ul class="links">
+						<li><a href="index.html" id="menu-HOME">Menu index</a></li>
+						<li><a href="header.html" id="menu-Header">Menu index</a></li>
+						<li><a href="notes.html" id="menu-Note">Menu index</a></li>
+						<li><a href="#" id="menu-Project">Menu index</a></li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</div>
+			</nav>
 
-      <!-- Wrapper -->
-      <section id="wrapper">
-        <header>
-          <div class="inner">
-            <h2 id="HeadersTitle">HeadersTitle</h2>
-            <p id="HeadersSubTitle">HeadersSubTitle</p>
-          </div>
-        </header>
+			<!-- Wrapper -->
+			<section id="wrapper">
+				<header>
+					<div class="inner">
+						<h2 id="HeadersTitle">HeadersTitle</h2>
+						<p id="HeadersSubTitle">HeadersSubTitle</p>
+					</div>
+				</header>
 
-        <!-- Content -->
-        <div class="wrapper">
-          <div class="inner">
+				<!-- Content -->
+				<div class="wrapper">
+					<div class="inner">
 
-            <fieldset>
-              <legend>目錄</legend>
-              <ul style="margin: 0em 0em 0.5em 0em">
-                <li><a href="#BigNumber">BigNumber</a></li>
-                <li><a href="#Graph">Graph</a></li>
-                <li><a href="#Matrix">Matrix</a></li>
-                <li><a href="#formula">formula</a></li>
-                <li><a href="#stringEX">stringEX</a></li>
-              </ul>
-            </fieldset>
-            <br><br>
+						<fieldset>
+							<legend>目錄</legend>
+							<ul style="margin: 0em 0em 0.5em 0em">
+								<li><a href="#BigNumber">BigNumber</a></li>
+								<li><a href="#Graph">Graph</a></li>
+								<li><a href="#Matrix">Matrix</a></li>
+								<li><a href="#formula">formula</a></li>
+								<li><a href="#stringEX">stringEX</a></li>
+							</ul>
+						</fieldset>
+						<br><br>
 
-            <h2 class="major" id="downloader">Header Downloader</h2>
-            <img src="images/HeaderDownloader.png" width="60%">
-            <br>
-            <p id="HeaderDownloaderContent">
-              你可以在這裡下載到這裡所有的標頭檔！<br>
-              這個應用程式會根據上傳的檔案隨時更新，所以除了跟新版本之外你不需要再次下載！<br><br>
-              
-              特別感謝：<br>
-              技術支援 By <a href="http://codingbear.cf/" target="_blank">Coding Bear</a>
-            </p>
-            <a href="https://github.com/ChocomintSSR/HeaderDownloader/blob/master/release/header-downloader-v1.1.1-setup.exe?raw=true" class="special">Dowload Latest Header Downloader</a>
-            <br>
-                    
-                    <!-- BigNumber -->
-                    <h2 class="major" id="BigNumber">BigNumber - 大數運算</h2>
-                    <p>
-                      所有在<code>BigNumber.h</code>中的函數：<br>
-  <pre><code><span class="code-dark_blue">class</span> <span class="code-green">BigInt</span>
-  {
-  <span class="code-dark_blue">private:</span>
-      <span class="code-green">std</span>::<span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-blue">container</span>;
-      <span class="code-dark_blue">bool</span> <span class="code-blue">positive</span>;
-      <span class="code-dark_blue">int</span> <span class="code-yellow">at</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>) { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>[<span class="code-blue">index</span>]; }
+						<h2 class="major" id="downloader">Header Downloader</h2>
+						<img src="images/HeaderDownloader.png" width="60%">
+						<br>
+						<p id="HeaderDownloaderContent">
+							你可以在這裡下載到這裡所有的標頭檔！<br>
+							這個應用程式會根據上傳的檔案隨時更新，所以除了跟新版本之外你不需要再次下載！<br><br>
+							
+							特別感謝：<br>
+							技術支援 By <a href="http://codingbear.cf/" target="_blank">Coding Bear</a>
+						</p>
+						<a href="https://github.com/ChocomintSSR/HeaderDownloader/blob/master/release/header-downloader-v1.1.1-setup.exe?raw=true" class="special">Dowload Latest Header Downloader</a>
+						<br>
+										
+										<!-- BigNumber -->
+										<h2 class="major" id="BigNumber">BigNumber - 大數運算</h2>
+										<p>
+											所有在<code>BigNumber.h</code>中的函數：<br>
+	<pre><code><span class="code-dark_blue">class</span> <span class="code-green">BigInt</span>
+	{
+	<span class="code-dark_blue">private:</span>
+			<span class="code-green">std</span>::<span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-blue">container</span>;
+			<span class="code-dark_blue">bool</span> <span class="code-blue">positive</span>;
+			<span class="code-dark_blue">int</span> <span class="code-yellow">at</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>) { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>[<span class="code-blue">index</span>]; }
 
-  <span class="code-dark_blue">public:</span>
-      <span class="code-dark_blue">friend</span> <span class="code-green">BigInt</span> <span class="code-orange">operator""_BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char *</span><span class="code-blue">val</span>, <span class="code-green">size_t</span> <span class="code-blue">size</span>);
+	<span class="code-dark_blue">public:</span>
+			<span class="code-dark_blue">friend</span> <span class="code-green">BigInt</span> <span class="code-orange">operator""_BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char *</span><span class="code-blue">val</span>, <span class="code-green">size_t</span> <span class="code-blue">size</span>);
 
-      <span class="code-yellow">BigInt</span>() {}
-      <span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>) { *<span class="code-dark_blue">this</span> = <span class="code-blue">val</span>; }
-      <span class="code-dark_blue">template</span> <<span class="code-dark_blue">class</span> <span class="code-green">T</span>>
-      <span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
+			<span class="code-yellow">BigInt</span>() {}
+			<span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>) { *<span class="code-dark_blue">this</span> = <span class="code-blue">val</span>; }
+			<span class="code-dark_blue">template</span> <<span class="code-dark_blue">class</span> <span class="code-green">T</span>>
+			<span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
 
-      <span class="code-comment">// Get digit from index</span>
-      <span class="code-dark_blue">int</span> <span class="code-yellow">operator[]</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>) { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>[<span class="code-dark_blue">this</span>-><span class="code-blue">container</span>.<span class="code-yellow">size</span>() - <span class="code-blue">index</span>]; }
-      <span class="code-green">std</span>::<span class="code-green">size_t</span> <span class="code-yellow">length</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>.<span class="code-yellow">size</span>(); }
-      <span class="code-green">std</span>::<span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-yellow">get_container</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>; }
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">is_positive</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">positive</span>; }
+			<span class="code-comment">// Get digit from index</span>
+			<span class="code-dark_blue">int</span> <span class="code-yellow">operator[]</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>) { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>[<span class="code-dark_blue">this</span>-><span class="code-blue">container</span>.<span class="code-yellow">size</span>() - <span class="code-blue">index</span>]; }
+			<span class="code-green">std</span>::<span class="code-green">size_t</span> <span class="code-yellow">length</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>.<span class="code-yellow">size</span>(); }
+			<span class="code-green">std</span>::<span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-yellow">get_container</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">container</span>; }
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">is_positive</span>() { <span class="code-purple">return</span> <span class="code-dark_blue">this</span>-><span class="code-blue">positive</span>; }
 
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator<<</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">dp</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator<<</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">dp</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
 
-      <span class="code-green">BigInt</span> <span class="code-yellow">operator+</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">BigInt</span> <span class="code-yellow">operator-</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">BigInt</span> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">BigInt</span> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">BigInt</span> <span class="code-yellow">operator^</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">BigInt</span> <span class="code-yellow">operator+</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">BigInt</span> <span class="code-yellow">operator-</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">BigInt</span> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">BigInt</span> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">BigInt</span> <span class="code-yellow">operator^</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
 
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator++</span>(<span class="code-dark_blue">int</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator--</span>(<span class="code-dark_blue">int</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator+=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator-=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator++</span>(<span class="code-dark_blue">int</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator--</span>(<span class="code-dark_blue">int</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator+=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator-=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
 
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator==</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator!=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator></span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator<</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator>=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">bool</span> <span class="code-yellow">operator<=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-  };
-  </code></pre>
-                    <br>
-                    <a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/BigNumber.h" class="special" target="_blank">Browse BigNumber.h file</a>
-                    <hr>
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator==</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator!=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator></span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator<</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator>=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">bool</span> <span class="code-yellow">operator<=</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+	};
+	</code></pre>
+										<br>
+										<a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/BigNumber.h" class="special" target="_blank">Browse BigNumber.h file</a>
+										<hr>
 
-                    <h2> =[新增の函數解析]= </h2>
-                    <code>
-  <span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">chocomint</span>;
-                    </code>
-                    <br><br>
+										<h2> =[新增の函數解析]= </h2>
+										<code>
+	<span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">chocomint</span>;
+										</code>
+										<br><br>
 
-                    <ul>
+										<ul>
 
-                      <li>
-                        <b>建構子 constructor</b>
-                        <br>
-  一般建構子：
-  <code>
-  <span class="code-yellow">BigInt</span>() {}
-  </code>
-  <br>
+											<li>
+												<b>建構子 constructor</b>
+												<br>
+	一般建構子：
+	<code>
+	<span class="code-yellow">BigInt</span>() {}
+	</code>
+	<br>
 
-  複製建構子：
-  <code>
-  <span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
-  </code>
-  <br>
+	複製建構子：
+	<code>
+	<span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">BigInt</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
+	</code>
+	<br>
 
-  整數建構子：
-  <code>
-  <span class="code-dark_blue">template</span><<span class="code-dark_blue">class</span> <span class="code-green">T</span>>
-  <span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
-  </code>
-  <br>
-                      </li><br>
+	整數建構子：
+	<code>
+	<span class="code-dark_blue">template</span><<span class="code-dark_blue">class</span> <span class="code-green">T</span>>
+	<span class="code-yellow">BigInt</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">val</span>);
+	</code>
+	<br>
+											</li><br>
 
-                      <li>
-                        <b>位移運算子</b>
-                        <br>
-  <code>
-  <span class="code-dark_blue">void</span> <span class="code-yellow">operator<<</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">dp</span>);
-  </code>
-  <br>
-                        <p>直接將整個數向左位移dp個數，相當於 ×10<sup>dp</sup></p>
-                        
-  <pre><code><span class="code-purple">#include</span> <span class="code-orange">&lt;iostream&gt;</span>
-  <span class="code-purple">#include</span> <span class="code-orange">"BigNumber.h"</span>
-  <span class="code-purple">using</span> <span class="code-dark_blue">namespace</span> <span class="code-green">std</span>;
-  <span class="code-purple">using</span> <span class="code-dark_blue">namespace</span> <span class="code-green">chocomint</span>;
+											<li>
+												<b>位移運算子</b>
+												<br>
+	<code>
+	<span class="code-dark_blue">void</span> <span class="code-yellow">operator<<</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">dp</span>);
+	</code>
+	<br>
+												<p>直接將整個數向左位移dp個數，相當於 ×10<sup>dp</sup></p>
+												
+	<pre><code><span class="code-purple">#include</span> <span class="code-orange">&lt;iostream&gt;</span>
+	<span class="code-purple">#include</span> <span class="code-orange">"BigNumber.h"</span>
+	<span class="code-purple">using</span> <span class="code-dark_blue">namespace</span> <span class="code-green">std</span>;
+	<span class="code-purple">using</span> <span class="code-dark_blue">namespace</span> <span class="code-green">chocomint</span>;
 
-  <span class="code-dark_blue">int</span> <span class="code-yellow">main</span>()
-  {
-    <span class="code-green">BigInt</span> <span class="code-blue">bi</span> = 123;
-    <span class="code-blue">bi</span> << 2;
-    <span class="code-blue">cout</span> << <span class="code-blue">bi</span> << <span class="code-orange">"\n"</span>; // 12300
+	<span class="code-dark_blue">int</span> <span class="code-yellow">main</span>()
+	{
+		<span class="code-green">BigInt</span> <span class="code-blue">bi</span> = 123;
+		<span class="code-blue">bi</span> << 2;
+		<span class="code-blue">cout</span> << <span class="code-blue">bi</span> << <span class="code-orange">"\n"</span>; // 12300
 
-    <span class="code-purple">return</span> 0;
-  }
-  </code></pre>
-                        <br>
-                      </li>
-                    </ul>
-                    <!-- BigNumber to here -->
-
-
-                    <!-- Graph -->
-                    <h2 class="major" id="BigNumber">Graph - 圖形結構</h2>
-                    <p>敬請期待！</p>
-
-                    <!-- Graph to here -->
-
-                    
-                    <!-- Matrix -->
-
-                    <h2 class="major" id="Matrix">Matrix - 矩陣計算機</h2>
-                    <p>
-                      所有在<code>Matrix.h</code>中的函數：<br>
-                      <!-- <img src="code_img/Matrix.png" width="50%"> -->
-  <pre><code><span class="code-dark_blue">template</span> &lt;<span class="code-dark_blue">class</span> <span class="code-green">T</span>&gt;
-  <span class="code-dark_blue">class</span> <span class="code-green">matrix</span>
-  {
-  <span class="code-dark_blue">private:</span>
-      <span class="code-green">T</span> <span class="code-yellow">det_diag</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">m</span>, <span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">n</span>);
-
-  <span class="code-dark_blue">public:</span>
-      <span class="code-green">vector</span><<span class="code-green">vector</span><<span class="code-green">T</span>>> <span class="code-blue">value</span>;
-      <span class="code-yellow">matrix</span>(){};
-      <span class="code-yellow">matrix</span>(<span class="code-dark_blue">int</span> <span class="code-blue">n</span>, <span class="code-dark_blue">int</span> <span class="code-blue"><span class="code-blue">_val</span></span>);
-      <span class="code-yellow">matrix</span>(<span class="code-dark_blue">int</span> <span class="code-blue">row</span>, <span class="code-dark_blue">int</span> <span class="code-blue">col</span>, <span class="code-dark_blue">int</span> <span class="code-blue"><span class="code-blue">_val</span></span>);
-
-      <span class="code-dark_blue">int</span> <span class="code-yellow">row_size</span>();
-      <span class="code-dark_blue">int</span> <span class="code-yellow">column_size</span>();
-
-      <span class="code-green">vector</span><<span class="code-green">T</span>> <span class="code-yellow">operator[]</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">vector</span><<span class="code-green">vector</span><<span class="code-green">T</span>>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator+</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator-</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator/</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator+=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator-=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator*=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator*=</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
-
-      <span class="code-green">T</span> <span class="code-yellow">det</span>();
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">Trans</span>();
-      <span class="code-green">T</span> <span class="code-yellow">M</span>(<span class="code-dark_blue">int</span> <span class="code-blue">r</span>, <span class="code-dark_blue">int</span> <span class="code-blue">c</span>);
-      <span class="code-green">T</span> <span class="code-yellow">A</span>(<span class="code-dark_blue">int</span> <span class="code-blue">r</span>, <span class="code-dark_blue">int</span> <span class="code-blue">c</span>);
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">adj</span>();
-      <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">inverse</span>();
-  };</code></pre>
-                      <br>
-                      <a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/Matrix.h" class="special" target="_blank">Browse Matrix.h file</a>
-                      <hr>
-                      <h2> =[新增の函數解析]= </h2>
-                      <code>
-  <span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">std</span>;
-                      </code>
-                      <br><br>
-
-                      <ul>
-
-                        <li>
-                          <b>二維陣列大小</b>
-                          <code>
-  <span class="code-dark_blue">int </span><span class="code-yellow">row_size</span>(); | <span class="code-dark_blue">int </span><span class="code-yellow">column_size</span>();
-                          </code>
-                        </li><br>
-
-                        <li><b>運算子</b></li>
-                        以下舉例各種運算子 ( <a href="code/matrix_operator.cpp">file</a> )：<br>
-                        <img src="code_img/matrix_operator.png" width="50%">
-                        <br><br>
-
-                        <li>
-                          <b>行列式值(determinant) - det</b>
-                          <code>
-  <span class="code-green">T </span><span class="code-yellow">det</span>();
-                          </code>
-                        </li>
-                        <br>
-                        <li>
-                          <b>轉置矩陣(transpose) - Trans</b>
-                          <code>
-  <span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">Trans</span>();
-                          </code>
-                        </li>
-                        <br>
-                        <li>
-                          <b>子式(minor) - M</b>
-                          <code>
-  <span class="code-green">T </span><span class="code-yellow">M</span>(<span class="code-dark_blue">int </span><span class="code-blue">r</span>, <span class="code-dark_blue">int </span><span class="code-blue">c</span>);
-                          </code>
-                        </li>
-                        <br>
-                        <li>
-                          <b>餘因式(cofactor) - A</b>
-                          <code>
-  <span class="code-green">T </span><span class="code-yellow">A</span>(<span class="code-dark_blue">int </span><span class="code-blue">r</span>, <span class="code-dark_blue">int </span><span class="code-blue">c</span>);
-                          </code>
-                        </li>
-                        <br>
-                        <li>
-                          <b>伴隨矩陣(adjoint) - adj</b>
-                          <code>
-  <span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">adj</span>();
-                          </code>
-                        </li>
-                        <br>
-                        <li>
-                          <b>反矩陣(inverse) - inverse</b>
-                          <code>
-  <span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">inverse</span>();
-                          </code>
-                        </li>
-                        <br>
-
-                        <a href="code/matrix_calc.cpp">Example :</a><br>
-                        <img src="code_img/mat.png" width="45%">
-
-                      </ul>
-                    </p>
-                    <!-- Matrix to here -->
-
-                    
-                    <!-- formula -->
-                    <h2 class="major" id="formula">formula - 公式運算</h2>
-                    <p>敬請期待！</p>
-
-                    <!-- formula to here -->
+		<span class="code-purple">return</span> 0;
+	}
+	</code></pre>
+												<br>
+											</li>
+										</ul>
+										<!-- BigNumber to here -->
 
 
-                    <!-- stringEX -->
+										<!-- Graph -->
+										<h2 class="major" id="BigNumber">Graph - 圖形結構</h2>
+										<p>敬請期待！</p>
 
-                    <h2 class="major" id="stringEX">String EX - 字串擴充</h2>
-                    <p>
-                      所有在<code>stringEX.h</code>中的函數：<br>
-  <pre><code><span class="code-dark_blue">class</span> <span class="code-green">stringEX</span> : <span class="code-dark_blue">public</span> <span class="code-green">string</span>
-  {
-  <span class="code-dark_blue">public:</span>
-      <span class="code-yellow">stringEX</span>() : <span class="code-green">string</span>(){};
-      <span class="code-yellow">stringEX</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">val</span>) : <span class="code-yellow">string</span>(<span class="code-blue">val</span>){};
-      <span class="code-yellow">stringEX</span>(<span class="code-dark_blue">const</span> <span class="code-green">string</span> <span class="code-blue">val</span>) : <span class="code-yellow">string</span>(<span class="code-blue">val</span>){};
+										<!-- Graph to here -->
 
-      <span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-yellow">split</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-yellow">splitByLength</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">len</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">replaceAll</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">rep</span>, <span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-green">stringEX</span> <span class="code-yellow">toHex</span>(<span class="code-dark_blue">bool</span> <span class="code-blue">BIG</span>);
-      <span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-yellow">toCharVector</span>();
-      <span class="code-green">stringEX</span> <span class="code-yellow">toUpper</span>();
-      <span class="code-green">stringEX</span> <span class="code-yellow">toLower</span>();
-      <span class="code-green">stringEX</span> <span class="code-yellow">toURI</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">uri</span>);
-      <span class="code-dark_blue">void</span> <span class="code-yellow">insertEX</span>(<span class="code-dark_blue">int</span> <span class="code-blue">pos</span>, <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+										
+										<!-- Matrix -->
 
-      <span class="code-dark_blue">friend</span> <span class="code-dark_blue">char</span> <span class="code-yellow">list</span>(<span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-green">string</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_decode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>, <span class="code-dark_blue">int</span> <span class="code-blue">times</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_decode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>, <span class="code-dark_blue">int</span> <span class="code-blue">times</span>);
+										<h2 class="major" id="Matrix">Matrix - 矩陣計算機</h2>
+										<p>
+											所有在<code>Matrix.h</code>中的函數：<br>
+											<!-- <img src="code_img/Matrix.png" width="50%"> -->
+	<pre><code><span class="code-dark_blue">template</span> &lt;<span class="code-dark_blue">class</span> <span class="code-green">T</span>&gt;
+	<span class="code-dark_blue">class</span> <span class="code-green">matrix</span>
+	{
+	<span class="code-dark_blue">private:</span>
+			<span class="code-green">T</span> <span class="code-yellow">det_diag</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">m</span>, <span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">n</span>);
 
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">Str_merge</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">separator</span>, <span class="code-green">vector</span><<span class="code-green">string</span>> <span class="code-blue">string_list</span>);
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">Str_merge</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">separator</span>, <span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-blue">string_list</span>);
+	<span class="code-dark_blue">public:</span>
+			<span class="code-green">vector</span><<span class="code-green">vector</span><<span class="code-green">T</span>>> <span class="code-blue">value</span>;
+			<span class="code-yellow">matrix</span>(){};
+			<span class="code-yellow">matrix</span>(<span class="code-dark_blue">int</span> <span class="code-blue">n</span>, <span class="code-dark_blue">int</span> <span class="code-blue"><span class="code-blue">_val</span></span>);
+			<span class="code-yellow">matrix</span>(<span class="code-dark_blue">int</span> <span class="code-blue">row</span>, <span class="code-dark_blue">int</span> <span class="code-blue">col</span>, <span class="code-dark_blue">int</span> <span class="code-blue"><span class="code-blue">_val</span></span>);
 
-      <span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-orange">operator""_utf8</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">ref</span>, <span class="code-green">size_t</span> <span class="code-blue">size</span>);
-  };</code></pre>
-                      <br>
-                      <a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/stringEX.h" class="special" target="_blank">Browse stringEX.h file</a>
-                      <hr>
-                      <h2> =[新增の函數解析]= </h2>
-                      <code>
-                        <span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">std</span>;
-                      </code>
-                      <br><br>
+			<span class="code-dark_blue">int</span> <span class="code-yellow">row_size</span>();
+			<span class="code-dark_blue">int</span> <span class="code-yellow">column_size</span>();
 
-                      <ul>
+			<span class="code-green">vector</span><<span class="code-green">T</span>> <span class="code-yellow">operator[]</span>(<span class="code-dark_blue">int</span> <span class="code-blue">index</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">operator=</span>(<span class="code-dark_blue">const</span> <span class="code-green">vector</span><<span class="code-green">vector</span><<span class="code-green">T</span>>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
 
-                        <li>
-                          <b>分隔函數 - split</b>
-                          <code>
-  <span class="code-green">vector</span>&lt;<span class="code-green">stringEX</span>&gt; <span class="code-yellow">split</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-                          </code>
-                        </li>
-                        <br>
-                        分隔函數可以把字串參照 ref 字串做分隔，並輸出至一個 vector&lt;stringEX&gt; 中存放。<br>
-                        <a href="code/split.cpp">Example :</a><br>
-                        <img src="code_img/split.png" width="30%">
-                        <br><br>
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator+</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator-</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator*</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">operator/</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
 
-                        <li>
-                          <b>長度分隔函數 - splitByLength</b>
-                          <code>
-  <span class="code-green">vector</span>&lt;<span class="code-green">stringEX</span>&gt; <span class="code-yellow">splitByLength</span>(<span class="code-dark_blue">const int &</span><span class="code-blue">ref</span>);
-                          </code>
-                        </li>
-                        <br>
-                        長度分隔函數可以把字串依照長度 ref 做分隔，最後一個長度不足的字串也會放入，並輸出至一個 vector&lt;stringEX&gt; 中存放。<br>
-                        <a href="code/splitByLength.cpp">Example :</a><br>
-                        <img src="code_img/splitByLength.png" width="27%">
-                        <br><br>
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator+=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator-=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator*=</span>(<span class="code-dark_blue">const</span> <span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-dark_blue">&</span><span class="code-yellow">operator*=</span>(<span class="code-dark_blue">const</span> <span class="code-green">T</span> <span class="code-dark_blue">&</span><span class="code-blue">ot</span>);
 
-                        <li>
-                          <b>替代函數 - replaceAll</b>
-                          <code>
-  <span class="code-dark_blue">void</span> <span class="code-yellow">replaceAll</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">rep</span>,<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
-                          </code>
-                        </li>
-                        <br>
-                        替代函數可以將一個字串中所有的 rep 字串替換成 ref 。
-                        <br>
-                        <a href="code/replaceAll.cpp">Example :</a><br>
-                        <img src="code_img/replaceAll.png" width="35%">
-                        <br><br>
-                        
-                        <li>
-                          <b>轉16進制 - toHex</b>
-                          <code>
-  <span class="code-green">stringEX </span><span class="code-yellow">toHex</span>(<span class="code-dark_blue">bool </span><span class="code-blue">BIG </span>= <span class="code-dark_blue">true</span>);
-                          </code>
-                        </li>
-                        <br>
-                        將一個字串中的所有字元轉換成 UTF-8 編碼<br>
-                        BIG 為控制輸出字串是否為大寫字母，預設是 true<br>
-                        <a href="code/toHex.cpp">Example :</a><br>
-                        <img src="code_img/toHex.png" width="27%">
-                        <br><br>
+			<span class="code-green">T</span> <span class="code-yellow">det</span>();
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">Trans</span>();
+			<span class="code-green">T</span> <span class="code-yellow">M</span>(<span class="code-dark_blue">int</span> <span class="code-blue">r</span>, <span class="code-dark_blue">int</span> <span class="code-blue">c</span>);
+			<span class="code-green">T</span> <span class="code-yellow">A</span>(<span class="code-dark_blue">int</span> <span class="code-blue">r</span>, <span class="code-dark_blue">int</span> <span class="code-blue">c</span>);
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">adj</span>();
+			<span class="code-green">matrix</span><<span class="code-green">T</span>> <span class="code-yellow">inverse</span>();
+	};</code></pre>
+											<br>
+											<a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/Matrix.h" class="special" target="_blank">Browse Matrix.h file</a>
+											<hr>
+											<h2> =[新增の函數解析]= </h2>
+											<code>
+	<span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">std</span>;
+											</code>
+											<br><br>
 
-                      </ul>
-                    </p>
-                    <!-- stringEX to here -->
+											<ul>
+
+												<li>
+													<b>二維陣列大小</b>
+													<code>
+	<span class="code-dark_blue">int </span><span class="code-yellow">row_size</span>(); | <span class="code-dark_blue">int </span><span class="code-yellow">column_size</span>();
+													</code>
+												</li><br>
+
+												<li><b>運算子</b></li>
+												以下舉例各種運算子 ( <a href="code/matrix_operator.cpp">file</a> )：<br>
+												<img src="code_img/matrix_operator.png" width="50%">
+												<br><br>
+
+												<li>
+													<b>行列式值(determinant) - det</b>
+													<code>
+	<span class="code-green">T </span><span class="code-yellow">det</span>();
+													</code>
+												</li>
+												<br>
+												<li>
+													<b>轉置矩陣(transpose) - Trans</b>
+													<code>
+	<span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">Trans</span>();
+													</code>
+												</li>
+												<br>
+												<li>
+													<b>子式(minor) - M</b>
+													<code>
+	<span class="code-green">T </span><span class="code-yellow">M</span>(<span class="code-dark_blue">int </span><span class="code-blue">r</span>, <span class="code-dark_blue">int </span><span class="code-blue">c</span>);
+													</code>
+												</li>
+												<br>
+												<li>
+													<b>餘因式(cofactor) - A</b>
+													<code>
+	<span class="code-green">T </span><span class="code-yellow">A</span>(<span class="code-dark_blue">int </span><span class="code-blue">r</span>, <span class="code-dark_blue">int </span><span class="code-blue">c</span>);
+													</code>
+												</li>
+												<br>
+												<li>
+													<b>伴隨矩陣(adjoint) - adj</b>
+													<code>
+	<span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">adj</span>();
+													</code>
+												</li>
+												<br>
+												<li>
+													<b>反矩陣(inverse) - inverse</b>
+													<code>
+	<span class="code-green">matrix</span>&lt;<span class="code-green">T</span>&gt; <span class="code-yellow">inverse</span>();
+													</code>
+												</li>
+												<br>
+
+												<a href="code/matrix_calc.cpp">Example :</a><br>
+												<img src="code_img/mat.png" width="45%">
+
+											</ul>
+										</p>
+										<!-- Matrix to here -->
+
+										
+										<!-- formula -->
+										<h2 class="major" id="formula">formula - 公式運算</h2>
+										<p>敬請期待！</p>
+
+										<!-- formula to here -->
 
 
-                  </div>
-                </div>
+										<!-- stringEX -->
 
-            </section>
+										<h2 class="major" id="stringEX">String EX - 字串擴充</h2>
+										<p>
+											所有在<code>stringEX.h</code>中的函數：<br>
+	<pre><code><span class="code-dark_blue">class</span> <span class="code-green">stringEX</span> : <span class="code-dark_blue">public</span> <span class="code-green">string</span>
+	{
+	<span class="code-dark_blue">public:</span>
+			<span class="code-yellow">stringEX</span>() : <span class="code-green">string</span>(){};
+			<span class="code-yellow">stringEX</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">val</span>) : <span class="code-yellow">string</span>(<span class="code-blue">val</span>){};
+			<span class="code-yellow">stringEX</span>(<span class="code-dark_blue">const</span> <span class="code-green">string</span> <span class="code-blue">val</span>) : <span class="code-yellow">string</span>(<span class="code-blue">val</span>){};
 
-          <!-- Footer -->
-            <section id="footer">
-              <div class="inner">
-                <h2 class="major">聯絡資訊 - Get In Touch</h2>
-                <ul class="contact">
-                  <li class="icon solid fa-envelope"><a href="https://mail.google.com/mail/u/0/?fs=1&to=yuhengsu0405@gmail.com&tf=cm" target="_blank">yuhengsu0405@gmail.com</a></li>
-                  <li class="icon brands fa-discord"><a >Discord/Chocomint#5250</a></li>
-                  <li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100049739194620" target="_blank">Facebook/薄荷巧克力</a></li>
-                  <li class="icon brands fa-instagram"><a href="https://www.instagram.com/white_chocomint/" target="_blank">Instagram/white_chocomint</a></li>
-                  <li class="icon brands fa-github"><a href="https://github.com/ChocomintSSR" target="_blank">Github/ChocomintSSR</a></li>
-                </ul>
-                <ul class="copyright">
-                  <li>Design: <a href="https://html5up.net/" target="_blank">HTML5 UP</a> / Chocomint</a></li>
-                </ul>
-              </div>
-            </section>
+			<span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-yellow">split</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-yellow">splitByLength</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">len</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">replaceAll</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">rep</span>, <span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-green">stringEX</span> <span class="code-yellow">toHex</span>(<span class="code-dark_blue">bool</span> <span class="code-blue">BIG</span>);
+			<span class="code-green">vector</span><<span class="code-dark_blue">int</span>> <span class="code-yellow">toCharVector</span>();
+			<span class="code-green">stringEX</span> <span class="code-yellow">toUpper</span>();
+			<span class="code-green">stringEX</span> <span class="code-yellow">toLower</span>();
+			<span class="code-green">stringEX</span> <span class="code-yellow">toURI</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">uri</span>);
+			<span class="code-dark_blue">void</span> <span class="code-yellow">insertEX</span>(<span class="code-dark_blue">int</span> <span class="code-blue">pos</span>, <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
 
-        </div>
+			<span class="code-dark_blue">friend</span> <span class="code-dark_blue">char</span> <span class="code-yellow">list</span>(<span class="code-dark_blue">int</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-green">string</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_decode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_encode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>, <span class="code-dark_blue">int</span> <span class="code-blue">times</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">base64_decode</span>(<span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>, <span class="code-dark_blue">int</span> <span class="code-blue">times</span>);
 
-  <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/language_load.js"></script>
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">Str_merge</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">separator</span>, <span class="code-green">vector</span><<span class="code-green">string</span>> <span class="code-blue">string_list</span>);
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-yellow">Str_merge</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">separator</span>, <span class="code-green">vector</span><<span class="code-green">stringEX</span>> <span class="code-blue">string_list</span>);
+
+			<span class="code-dark_blue">friend</span> <span class="code-green">stringEX</span> <span class="code-orange">operator""_utf8</span>(<span class="code-dark_blue">const</span> <span class="code-dark_blue">char</span> <span class="code-dark_blue">*</span><span class="code-blue">ref</span>, <span class="code-green">size_t</span> <span class="code-blue">size</span>);
+	};</code></pre>
+											<br>
+											<a href="https://github.com/ChocomintSSR/Header_forCpp/blob/main/stringEX.h" class="special" target="_blank">Browse stringEX.h file</a>
+											<hr>
+											<h2> =[新增の函數解析]= </h2>
+											<code>
+												<span class="code-purple">using </span><span class="code-dark_blue">namespace </span><span class="code-green">std</span>;
+											</code>
+											<br><br>
+
+											<ul>
+
+												<li>
+													<b>分隔函數 - split</b>
+													<code>
+	<span class="code-green">vector</span>&lt;<span class="code-green">stringEX</span>&gt; <span class="code-yellow">split</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+													</code>
+												</li>
+												<br>
+												分隔函數可以把字串參照 ref 字串做分隔，並輸出至一個 vector&lt;stringEX&gt; 中存放。<br>
+												<a href="code/split.cpp">Example :</a><br>
+												<img src="code_img/split.png" width="30%">
+												<br><br>
+
+												<li>
+													<b>長度分隔函數 - splitByLength</b>
+													<code>
+	<span class="code-green">vector</span>&lt;<span class="code-green">stringEX</span>&gt; <span class="code-yellow">splitByLength</span>(<span class="code-dark_blue">const int &</span><span class="code-blue">ref</span>);
+													</code>
+												</li>
+												<br>
+												長度分隔函數可以把字串依照長度 ref 做分隔，最後一個長度不足的字串也會放入，並輸出至一個 vector&lt;stringEX&gt; 中存放。<br>
+												<a href="code/splitByLength.cpp">Example :</a><br>
+												<img src="code_img/splitByLength.png" width="27%">
+												<br><br>
+
+												<li>
+													<b>替代函數 - replaceAll</b>
+													<code>
+	<span class="code-dark_blue">void</span> <span class="code-yellow">replaceAll</span>(<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">rep</span>,<span class="code-dark_blue">const</span> <span class="code-green">stringEX</span> <span class="code-dark_blue">&</span><span class="code-blue">ref</span>);
+													</code>
+												</li>
+												<br>
+												替代函數可以將一個字串中所有的 rep 字串替換成 ref 。
+												<br>
+												<a href="code/replaceAll.cpp">Example :</a><br>
+												<img src="code_img/replaceAll.png" width="35%">
+												<br><br>
+												
+												<li>
+													<b>轉16進制 - toHex</b>
+													<code>
+	<span class="code-green">stringEX </span><span class="code-yellow">toHex</span>(<span class="code-dark_blue">bool </span><span class="code-blue">BIG </span>= <span class="code-dark_blue">true</span>);
+													</code>
+												</li>
+												<br>
+												將一個字串中的所有字元轉換成 UTF-8 編碼<br>
+												BIG 為控制輸出字串是否為大寫字母，預設是 true<br>
+												<a href="code/toHex.cpp">Example :</a><br>
+												<img src="code_img/toHex.png" width="27%">
+												<br><br>
+
+											</ul>
+										</p>
+										<!-- stringEX to here -->
+
+
+									</div>
+								</div>
+
+						</section>
+
+					<!-- Footer -->
+						<section id="footer">
+							<div class="inner">
+								<h2 class="major">聯絡資訊 - Get In Touch</h2>
+								<ul class="contact">
+									<li class="icon solid fa-envelope"><a href="https://mail.google.com/mail/u/0/?fs=1&to=yuhengsu0405@gmail.com&tf=cm" target="_blank">yuhengsu0405@gmail.com</a></li>
+									<li class="icon brands fa-discord"><a >Discord/Chocomint#5250</a></li>
+									<li class="icon brands fa-facebook-f"><a href="https://www.facebook.com/profile.php?id=100049739194620" target="_blank">Facebook/薄荷巧克力</a></li>
+									<li class="icon brands fa-instagram"><a href="https://www.instagram.com/white_chocomint/" target="_blank">Instagram/white_chocomint</a></li>
+									<li class="icon brands fa-github"><a href="https://github.com/ChocomintSSR" target="_blank">Github/ChocomintSSR</a></li>
+								</ul>
+								<ul class="copyright">
+									<li>Design: <a href="https://html5up.net/" target="_blank">HTML5 UP</a> / Chocomint</a></li>
+								</ul>
+							</div>
+						</section>
+
+				</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script src="assets/js/language_load.js"></script>
 
 	</body>
 </html>
