@@ -35,7 +35,8 @@
 	"Variation":"【筆記】 變分法",
 
 
+	"downloader":"Header Downloader [維修中...]",
 	"HeadersTitle":"我的C++標頭檔",
 	"HeadersSubTitle":"這裡有一些好用的C++標頭檔資源，歡迎取用！",
-	"HeaderDownloaderContent":"[維修中...]\n你可以在這裡下載到這裡所有的標頭檔！<br>這個應用程式會根據上傳的檔案隨時更新，所以除了跟新版本之外你不需要再次下載！<br><br>特別感謝：<br>技術支援 By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>"
+	"HeaderDownloaderContent":"你可以在這裡下載到這裡所有的標頭檔！<br>這個應用程式會根據上傳的檔案隨時更新，所以除了跟新版本之外你不需要再次下載！<br><br>特別感謝：<br>技術支援 By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>"
 }
