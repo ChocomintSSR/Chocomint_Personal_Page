@@ -1,6 +1,7 @@
 # Chocomint Personal Page
 
 My Page Link: [chocomint.cf](https://chocomint.cf/)
+![chocomint.cf](https://github.com/ChocomintSSR/Chocomint_Personal_Page/blob/main/images/chocomint_cf.png?raw=true)
 ***
 Special Thanks:
 
