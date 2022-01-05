@@ -33,6 +33,13 @@
 	"VectorField":"[Note] Calculus of Vector Field",
 	"LaplaceTransformation":"[Note] Laplace Transformation",
 	"Variation":"[Note] Variation of Calculus",
+	
+	"OperatorOverloadingContent":"想要用與眾不同的方法寫出像 add(A,B) 這樣麻煩的東西嗎? 這個課程保證讓你收穫滿滿！",
+	"GeometryContent":"將所有的幾何小知識濃縮在這本幾何筆記中，看完保證使你收穫滿滿！",
+	"ConicContent":"匯集關於圓錐曲線的性質與定理。透過這本筆記與圓錐曲線打好關係吧！",
+	"VectorContent":"從線積分、面積分，到格林定理、斯托克斯定理，都在這篇筆記當中！",
+	"LaplaceContent":"還在為解微分方程式而困擾嗎? 教你用最硬的方式解微分方程式！",
+	"VariationContent":"最速降線是甚麼?! 帶你了解如何算出一系列曲線對某作用造成的的極值！",
 
 	
 	"downloader":"Header Downloader [Maintaining...]",
