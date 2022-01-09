@@ -45,5 +45,8 @@
 	"downloader":"Header Downloader [Maintaining...]",
 	"HeadersTitle":"My C++ Headers",
 	"HeadersSubTitle":"Here are some C++ headers resources, enjoy!",
-	"HeaderDownloaderContent":"You can download all the headers in this application!<br>This application will update automatically when some headers are uploaded on the github. Therefore, you don't have to download again except for the new release. <br><br>Special Thank:<br>Tech Support By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>"
+	"HeaderDownloaderContent":"You can download all the headers in this application!<br>This application will update automatically when some headers are uploaded on the github. Therefore, you don't have to download again except for the new release. <br><br>Special Thank:<br>Tech Support By <a href=\"http://codingbear.cf/\" target=\"_blank\">Coding Bear</a>",
+	
+	
+	"GetInTouch":"Get In Touch"
 }
