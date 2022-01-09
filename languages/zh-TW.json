@@ -12,17 +12,11 @@
 	"AboutMeContent":"目前就讀南一中，喜歡寫程式、研究數學及物理<br>我從國一開始學習C++，現在主要是寫擴充標頭檔<br>目前正在學習 OpenGL 以及開發 Minecraft",
 	"MyHeaders":"我的標頭檔",
 	
-	"BigNumber":"BigNumber.h - 大數運算",
-	"Graph":"Graph.h - 圖形結構",
-	"Matrix":"Matrix.h - 矩陣計算機",
-	"formula":"formula.h - 函數代值",
-	"stringEX":"stringEX.h - 字串擴充",
-
-	"BigNumberContent":"比一般long long還更長的數字！",
-	"GraphContent":"各種圖形結構的演算法！",
-	"MatrixContent":"支援以不同型態的元素宣告矩陣，能夠完成矩陣的運算！",
-	"formulaContent":"可以對自訂函數做微分、積分的代值運算！",
-	"stringEXContent":"對std中原有的字串做擴充，加入了一些好用的功能！",
+	"BigNumberContent":"比一般long long還更長的數字",
+	"MatrixContent":"支援以不同型態的元素宣告矩陣，能夠完成矩陣的運算",
+	"stringEXContent":"對std中原有的字串做擴充，加入了一些好用的功能",
+	"complexContent":"仿造C++原生complex製作了類似的標頭檔",
+	"commonContent":"加入一些常用的功能，讓你不用每次都再寫一次",
 
 	"MyProject":"我的專案",
 
