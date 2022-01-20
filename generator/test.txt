@@ -1,0 +1,25 @@
+execute as @e[tag=crafting] at @s if block ~ ~ ~ minecraft:dropper[facing=up,triggered=false]
+{
+	CustomName:'{"extra":[{"bold":true,"color":"dark_green","text":"量子科技合成台"}],"text":""}',
+	Items:[
+		{Slot:0b,id:"minecraft:diamond",Count:1b},
+		{Slot:1b,id:"minecraft:diamond",Count:1b},
+		{Slot:2b,id:"minecraft:diamond",Count:1b},
+		{Slot:3b,id:"minecraft:diamond",Count:1b},
+		{Slot:4b,id:"minecraft:iron_ingot",Count:1b},
+		{Slot:5b,id:"minecraft:diamond",Count:1b},
+		{Slot:6b,id:"minecraft:diamond",Count:1b},
+		{Slot:7b,id:"minecraft:diamond",Count:1b},
+		{Slot:8b,id:"minecraft:diamond",Count:1b}
+	]
+} run function craft:craft_recipes/diamond_ingot
+
+execute as @e[tag=crafting] at @s if block ~ ~ ~ minecraft:dropper[facing=up,triggered=false]{CustomName:'{"extra":[{"bold":true,"color":"dark_green","text":"量子科技合成台"}],"text":""}',
+Items:[
+	{
+		Slot:0b,
+		id:"minecraft:glass",
+		Count:1b,
+		tag:{Unbreakable:1,display:{Name:'[{"text":""},{"text":"強化玻璃","color":"yellow","italic":"false","bold":"true"}]'},Enchantments:[{lvl:5,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:power"}]}
+	},
+	{Slot:1b,id:"minecraft:glass",Count:1b,tag:{Unbreakable:1,display:{Name:'[{"text":""},{"text":"強化玻璃","color":"yellow","italic":"false","bold":"true"}]'},Enchantments:[{lvl:5,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:power"}]}},{Slot:2b,id:"minecraft:glass",Count:1b,tag:{Unbreakable:1,display:{Name:'[{"text":""},{"text":"強化玻璃","color":"yellow","italic":"false","bold":"true"}]'},Enchantments:[{lvl:5,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:power"}]}},{Slot:3b,id:"minecraft:obsidian",Count:1b},{Slot:4b,id:"minecraft:end_crystal",Count:1b,tag:{display:{Name:'[{"text":""},{"text":"強化板","color":"dark_purple","italic":"false","bold":"false"}]'},Enchantments:[{lvl:3,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:loyalty"}]}},{Slot:5b,id:"minecraft:obsidian",Count:1b},{Slot:6b,id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":""},{"text":"鑽石錠","color":"aqua","italic":"false","bold":"true"}]'},Enchantments:[{lvl:10,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:fortune"}]}},{Slot:7b,id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":""},{"text":"鑽石錠","color":"aqua","italic":"false","bold":"true"}]'},Enchantments:[{lvl:10,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:fortune"}]}},{Slot:8b,id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:1,Unbreakable:1,display:{Name:'[{"text":""},{"text":"鑽石錠","color":"aqua","italic":"false","bold":"true"}]'},Enchantments:[{lvl:10,id:"minecraft:unbreaking"},{lvl:5,id:"minecraft:fortune"}]}}]} run function craft:basic_processing/processing_machine

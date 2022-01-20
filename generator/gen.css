@@ -1,0 +1,65 @@
+.craft {
+	margin: 10px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.craft-table {
+	flex: 0 0 180px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.grid {
+	flex: 0 0 60px;
+	position: relative;
+	display: block;
+	text-align: center !important;
+	background-color: #8b8b8b;
+	border-color: #373737 #fff #fff #373737;
+	border-style: solid;
+	border-width: 2px;
+	width: 60px;
+	height: 60px;
+	color: black;
+	font-size: x-large;
+	cursor: pointer;
+}
+.grid:hover {
+	background-color: hsla(0,0%,100%,.4)
+}
+.grid img { cursor: move }
+
+.craft:child {
+	flex: 0 0;
+	margin-left: 20px;
+}
+
+.input-box {
+	width: 200px !important;
+	height: 30px !important;
+
+	padding: 2px !important;
+	border-radius: 0px !important;
+
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+
+	background-color: #2e3141 !important;
+	color: white !important;
+}
+
+.d_info {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.d_info:child {
+	flex: 0 0;
+}
