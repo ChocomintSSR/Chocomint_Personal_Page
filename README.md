@@ -1,4 +1,5 @@
-# Chocomint Personal Page
+# Deprecated!
+## Chocomint Personal Page
 
 My Page Link: [chocomint.cf](https://chocomint.cf/)
 
